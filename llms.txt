@@ -1,15 +1,12 @@
-# Semble Code Search Gate
+# Semble Code Search Gate MCP
 
-Semble Code Search Gate is a hosted remote MCP for agent code search routing MCP.
+Paid remote MCP for agent code search routing MCP, structured receipts, audit logs, and reviewer-ready evidence.
 
 Website: https://semblecodesearchgate.clauxel.com/
-Docs pattern reference: https://github.com/clauxel/MiroFish
-Primary keyword: agent code search routing MCP
-Type: MCP
-Default plan: team
 MCP endpoint: https://semblecodesearchgate.clauxel.com/mcp
 Server card: https://semblecodesearchgate.clauxel.com/server-card.json
-Registry name: com.clauxel.semblecodesearchgate/semblecodesearchgate-mcp
-Tools: route_code_search, explain_context_choice, issue_search_receipt, log_search_route, export_search_audit
+Docs: https://github.com/clauxel/semble-code-search-gate-mcp
 
-Public boundary: docs-only repository; no production source code or secrets.
+Use case: agent code search routing MCP with structured receipts.
+Authentication: Bearer token required for production use.
+Tools: route_code_search, explain_context_choice, issue_search_receipt, log_search_route, export_search_audit
